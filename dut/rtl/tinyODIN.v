@@ -1,3 +1,5 @@
+// Public export change (2026-10-16): normalized the upstream header encoding to UTF-8.
+// Original HDL logic is unchanged.
 // Copyright (C) 2019-2022, Université catholique de Louvain (UCLouvain, Belgium), University of Zürich (UZH, Switzerland),
 //         Katholieke Universiteit Leuven (KU Leuven, Belgium), and Delft University of Technology (TU Delft, Netherlands).
 // SPDX-License-Identifier: Apache-2.0 WITH SHL-2.1

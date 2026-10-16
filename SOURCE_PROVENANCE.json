@@ -65,7 +65,8 @@
       "upstream_encoding": "windows-1252",
       "local_source_sha256": "5d1c0a27c1f8c45917511bfbf52f9261c4f442ecc7a5d99a4f06f593472e9830",
       "comment_whitespace_normalized_equal": true,
-      "export_sha256": "d48cdca12d7ef464eda0eaff758029e0311b8c483906e50c5f185213a0474918"
+      "export_sha256": "4fa6b39392f9f02324b5bfa724037fb6609693c389585d325eccecffec1dddd0",
+      "export_change_notice": "Inline notice identifies UTF-8 normalization; original HDL logic retained."
     }
   },
   "license_files": {
@@ -78,6 +79,21 @@
     "Apache-2.0": {
       "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
       "export_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "MIT-EDA-Elite-Challenge": {
+      "source": "LICENSE supplied in the EDA Elite Challenge public dma_xfer_public package",
+      "source_sha256": "95ca523cc02118c71c3e573137fe7f10fe6f4e4f50137da0cfb7bbaeabca60e0",
+      "export_path": "LICENSES/MIT-EDA-Elite-Challenge.txt",
+      "export_sha256": "95ca523cc02118c71c3e573137fe7f10fe6f4e4f50137da0cfb7bbaeabca60e0"
+    }
+  },
+  "template_components": {
+    "coverage_simulator.py": {
+      "source": "EDA Elite Challenge public dma_xfer_public coverage_simulator.py",
+      "source_sha256": "f0e4637ce719a438853274556a5f56c4a31c3592cf6fc80ca8c2dbf937487cb6",
+      "license": "MIT",
+      "export_sha256": "fc8471952283a1f9640b07990a1406a9dde81b088c45d68902a76f13be3ac457",
+      "changes": "Replace module description; add copyright, source, license and change notices; implementation body retained."
     }
   }
 }

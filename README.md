@@ -62,6 +62,8 @@ SystemVerilog covergroup。内部观察信号供评测器使用，不属于六�
 [`dut/rtl/LICENSE`](dut/rtl/LICENSE)，配套 Apache 2.0 文本为
 [`dut/rtl/LICENSE.Apache-2.0`](dut/rtl/LICENSE.Apache-2.0)。
 作者、引用要求及文件范围见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
-评测适配文件保持原有许可状态，本次发布不额外授予新的开源许可。
+`coverage_simulator.py` 沿用赛方公开 DMA 覆盖评估器的 MIT 许可，版权和完整文本见
+[`LICENSES/MIT-EDA-Elite-Challenge.txt`](LICENSES/MIT-EDA-Elite-Challenge.txt)。
+其他新增评测适配文件保持原有许可状态，本次发布不额外授予新的开源许可。
 
 本仓库不包含工艺库、综合网表、波形、编译二进制、私有配置或外部项目历史。

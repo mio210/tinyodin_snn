@@ -7,5 +7,7 @@
 *.md text eol=lf
 *.json text eol=lf
 requirements.txt text eol=lf
+dut/rtl/LICENSE* text eol=lf
+LICENSES/** text eol=lf
 # Preserve the vendored HDL formatting and its recorded SHA256 values.
 dut/rtl/** -whitespace

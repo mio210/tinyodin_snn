@@ -38,9 +38,24 @@ and Systems, vol. 13, no. 1, pp. 145-158, 2019.
 
 The upstream documentation under `doc/` is not included in this export.
 
-## Coverage adapter
+## EDA Elite Challenge coverage evaluator
+
+`coverage_simulator.py` is derived from the coverage evaluator shipped in the
+public `dma_xfer_public` DUT package for the EDA Elite Challenge. Its body is
+unchanged; the export replaces the DMA-specific module description and adds
+source attribution. The provided public DUT package licenses this component
+under MIT:
+
+Copyright (c) 2026 EDA Elite Challenge Committee
+
+The complete copyright and permission notice is included in
+`LICENSES/MIT-EDA-Elite-Challenge.txt`. That license applies to the reused
+evaluator and does not change the license of the tinyODIN RTL.
+
+## Other coverage adapter files
 
 The wrapper, harness, coverage metadata, interface specification and example
 are separate benchmark additions. Upstream HDL notices apply to the upstream
-files identified above. The adapter retains its existing licensing status;
-this publication does not add a new license grant for those additions.
+files identified above. The evaluator retains its MIT license. Other adapter
+additions retain their existing licensing status; this publication does not
+add a new license grant for those additions.

@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+# Derived from the EDA Elite Challenge public DMA coverage evaluator.
+# Copyright (c) 2026 EDA Elite Challenge Committee
+# SPDX-License-Identifier: MIT
+# See LICENSES/MIT-EDA-Elite-Challenge.txt.
+# Public export change: replaced the DMA-specific module description only.
 """Ordered metadata-driven functional coverage for the tinyODIN adapter."""
 
 import json
