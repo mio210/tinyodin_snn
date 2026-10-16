@@ -1,0 +1,11 @@
+* text=auto
+*.py text eol=lf
+*.v text eol=lf
+*.svh text eol=lf
+*.cpp text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+requirements.txt text eol=lf
+# Preserve the vendored HDL formatting and its recorded SHA256 values.
+dut/rtl/** -whitespace

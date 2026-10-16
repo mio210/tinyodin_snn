@@ -1,0 +1,83 @@
+{
+  "upstream_repository": "https://github.com/ChFrenkel/tinyODIN",
+  "upstream_commit": "18656534162a9de09b9954aea28fbfad7a7f8657",
+  "license": "Apache-2.0 WITH SHL-2.1",
+  "export_changes": "Restore upstream copyright, license, author and citation headers; preserve local HDL logic.",
+  "rtl_files": {
+    "aer_out.v": {
+      "upstream_sha256": "1df461ee2a0b6b495ec1c10cae4262bde672ff7ed3ecbd8bc2cf842d99d69fab",
+      "upstream_encoding": "utf-8",
+      "local_source_sha256": "15e30c0218ea54ead22a492ee230caf62fb874735e1fe5af6935a9ab6b0aa5bd",
+      "comment_whitespace_normalized_equal": true,
+      "export_sha256": "1df461ee2a0b6b495ec1c10cae4262bde672ff7ed3ecbd8bc2cf842d99d69fab"
+    },
+    "controller.v": {
+      "upstream_sha256": "029b6d2dea3c2ccbe14397ec1e717d7bc52e5fcf76baaf9e1a4174b295f399fe",
+      "upstream_encoding": "utf-8",
+      "local_source_sha256": "ea49f198761f56c86929972df968c66644c6ad0497d5aaa93fdcbbeda4273903",
+      "comment_whitespace_normalized_equal": true,
+      "export_sha256": "029b6d2dea3c2ccbe14397ec1e717d7bc52e5fcf76baaf9e1a4174b295f399fe"
+    },
+    "fifo.v": {
+      "upstream_sha256": "af39371549b5d286c22f39713bf3d4b1672a90046bf2fb6af82ef2a472e93f15",
+      "upstream_encoding": "utf-8",
+      "local_source_sha256": "6faa6cfc9324a4ed14f0a7866e1dcec3eb5230a78e73f93a3281cb46deccf792",
+      "comment_whitespace_normalized_equal": true,
+      "export_sha256": "af39371549b5d286c22f39713bf3d4b1672a90046bf2fb6af82ef2a472e93f15"
+    },
+    "lif_neuron.v": {
+      "upstream_sha256": "1617c7c6dc8c397373dbe0e076e8325663887f1be1ae0737def38e51ce03f5e8",
+      "upstream_encoding": "utf-8",
+      "local_source_sha256": "afa1962cd1773d875c44eda0f7181955c0229117b5de814519273ea0e8b6ccb3",
+      "comment_whitespace_normalized_equal": true,
+      "export_sha256": "1617c7c6dc8c397373dbe0e076e8325663887f1be1ae0737def38e51ce03f5e8"
+    },
+    "neuron_core.v": {
+      "upstream_sha256": "8c1fb8aa41bcb50595a256a514d1d267d277dcbe37db57dcf28173abcb156bcc",
+      "upstream_encoding": "utf-8",
+      "local_source_sha256": "d9aefdfc46c1c9a7e8121a28b20dd45cab2457a770dc8f843e6a9400aa52ba2e",
+      "comment_whitespace_normalized_equal": true,
+      "export_sha256": "8c1fb8aa41bcb50595a256a514d1d267d277dcbe37db57dcf28173abcb156bcc"
+    },
+    "scheduler.v": {
+      "upstream_sha256": "54ee076f10a5c060f32fa7eab07ce1f8692a2d24da8056d50080dd002f976f74",
+      "upstream_encoding": "utf-8",
+      "local_source_sha256": "de8abc922cbff0c316723ad3b00c833d834eb3ef8a2991ad7db27e36d158065a",
+      "comment_whitespace_normalized_equal": true,
+      "export_sha256": "54ee076f10a5c060f32fa7eab07ce1f8692a2d24da8056d50080dd002f976f74"
+    },
+    "spi_slave.v": {
+      "upstream_sha256": "466e32dfa67f1b835b390a44c1b14e4f4d695b272306fb96d9b1fd544e8852f8",
+      "upstream_encoding": "utf-8",
+      "local_source_sha256": "416f821cc3ed05d608f3f396b9a05a14527f1096b7073254f151978e81799a90",
+      "comment_whitespace_normalized_equal": true,
+      "export_sha256": "466e32dfa67f1b835b390a44c1b14e4f4d695b272306fb96d9b1fd544e8852f8"
+    },
+    "synaptic_core.v": {
+      "upstream_sha256": "b859058b7cde830812520ed37fa52e8e84f951444485d7d3400a4e16134adf0e",
+      "upstream_encoding": "utf-8",
+      "local_source_sha256": "0ff22fec0f98bce3492b78d7e9458f75374465721c4528df5df419915a346ccd",
+      "comment_whitespace_normalized_equal": true,
+      "export_sha256": "b859058b7cde830812520ed37fa52e8e84f951444485d7d3400a4e16134adf0e"
+    },
+    "tinyODIN.v": {
+      "upstream_sha256": "63bcac8c09167becba451c2841ea32b2f81f583c7a14c0d4fd1f9b8b14c50716",
+      "upstream_encoding": "windows-1252",
+      "local_source_sha256": "5d1c0a27c1f8c45917511bfbf52f9261c4f442ecc7a5d99a4f06f593472e9830",
+      "comment_whitespace_normalized_equal": true,
+      "export_sha256": "d48cdca12d7ef464eda0eaff758029e0311b8c483906e50c5f185213a0474918"
+    }
+  },
+  "license_files": {
+    "Solderpad": {
+      "url": "https://github.com/ChFrenkel/tinyODIN/blob/18656534162a9de09b9954aea28fbfad7a7f8657/LICENSE",
+      "upstream_sha256": "3e5d1c0eb38cf46c5d722fead6b0e53cabb3df8bd2a934cb4fad33275b103e32",
+      "upstream_encoding": "windows-1252",
+      "export_sha256": "d09c4970a17378d4501236deab4b332138efd9acde7adb89baa8ac56c3b44092"
+    },
+    "Apache-2.0": {
+      "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "export_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+obj_dir/
+*.o
+*.a
+*.d
+*.vcd
+*.fst
+*.log
+*.env
+.env
+results/

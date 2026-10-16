@@ -1,0 +1,25 @@
+{
+  "dut_name": "tinyodin_snn",
+  "version": "1.0",
+  "total_bins": 52,
+  "coverpoints": [
+    {"name":"reset","type":"basic","signal":"rst","bins":[{"name":"asserted","value":1},{"name":"run","value":0}]},
+    {"name":"spi_clock","type":"basic","signal":"sck","bins":[{"name":"low","value":0},{"name":"high","value":1}]},
+    {"name":"mosi","type":"basic","signal":"mosi","bins":[{"name":"zero","value":0},{"name":"one","value":1}]},
+    {"name":"spi_count","type":"boundary","signal":"spi_cnt","bins":[{"name":"start","value":0},{"name":"address_end","value":19},{"name":"read_load","value":31},{"name":"frame_end","value":39}]},
+    {"name":"opcode","type":"basic","signal":"opcode","bins":[{"name":"cfg","value":0},{"name":"neuron","value":1},{"name":"synapse","value":2},{"name":"reserved","value":3}]},
+    {"name":"spi_event","type":"cross","signal":"prog,read","bins":[{"name":"idle","cross":[0,0]},{"name":"program","cross":[1,0]},{"name":"readback","cross":[0,1]}]},
+    {"name":"config","type":"cross","signal":"gate,open","bins":[{"name":"disabled_closed","cross":[0,0]},{"name":"disabled_open","cross":[0,1]},{"name":"enabled_closed","cross":[1,0]},{"name":"enabled_open","cross":[1,1]}]},
+    {"name":"aer_input_type","type":"boundary","signal":"aerin_type","bins":[{"name":"neuron","value":0},{"name":"tref","value":1},{"name":"virtual","value":2},{"name":"both","value":3}]},
+    {"name":"aer_input_addr","type":"boundary","signal":"aerin_low","bins":[{"name":"zero","value":0},{"name":"one","value":1},{"name":"max","value":255}]},
+    {"name":"aer_handshake","type":"cross","signal":"aerin_req,aerin_ack","bins":[{"name":"idle","cross":[0,0]},{"name":"request","cross":[1,0]},{"name":"accepted","cross":[1,1]}]},
+    {"name":"aer_output","type":"cross","signal":"aerout_req,aerout_ack","bins":[{"name":"idle","cross":[0,0]},{"name":"request","cross":[1,0]},{"name":"accepted","cross":[1,1]}]},
+    {"name":"controller_state","type":"basic","signal":"ctrl_state","bins":[{"name":"wait","value":0},{"name":"write_neuron","value":1},{"name":"read_neuron","value":2},{"name":"write_synapse","value":3},{"name":"read_synapse","value":4},{"name":"tref","value":5},{"name":"push","value":6},{"name":"pop_neuron","value":7},{"name":"pop_virtual","value":8},{"name":"aer_pop","value":9},{"name":"wait_spi_down","value":10},{"name":"wait_req_down","value":11}]},
+    {"name":"scheduler_full","type":"basic","signal":"sched_full","bins":[{"name":"full","value":1}]},
+    {"name":"seq_reset_release","type":"seq_hit","seq":"seq_reset_release","bins":[{"name":"hit","value":1}]},
+    {"name":"seq_spi_program","type":"seq_hit","seq":"seq_spi_program","bins":[{"name":"hit","value":1}]},
+    {"name":"seq_aer_handshake","type":"seq_hit","seq":"seq_aer_handshake","bins":[{"name":"hit","value":1}]},
+    {"name":"seq_spi_then_aer","type":"seq_hit","seq":"seq_spi_then_aer","bins":[{"name":"hit","value":1}]},
+    {"name":"seq_req_hold","type":"seq_hit","seq":"seq_req_hold","bins":[{"name":"hit","value":1}]}
+  ]
+}
